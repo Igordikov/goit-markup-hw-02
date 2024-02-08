@@ -13,13 +13,6 @@ a {
 
 /* HEADER */
 
-.navigation {
-  width: 1440px;
-  height: 72px;
-  border-bottom: 1px solid #e7e9fc;
-  display: flex;
-}
-
 /* LOGO */
 
 .logo-web {
@@ -61,8 +54,6 @@ a {
 
 .background-title {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
 }
 
 .text-title {
@@ -80,12 +71,8 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  border-radius: 4px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
   background-color: #4d5ae5;
-  border: none;
 }
 
 /*PECULIARITIE*/
@@ -121,12 +108,7 @@ a {
 }
 
 .img-our-team {
-  border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
-  width: 264px;
-  height: 380px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
 }
 
@@ -162,8 +144,6 @@ a {
 
 .img-our-portfolio {
   background-color: #fff;
-  width: 360px;
-  height: 420px;
 }
 
 .service-name {
