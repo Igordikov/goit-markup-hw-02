@@ -15,24 +15,18 @@ a {
 
 /* LOGO */
 
-.logo-web {
-  color: #4d5ae5;
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .logo-studio {
   color: #2e2f42;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .menu-text {
@@ -40,6 +34,15 @@ a {
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  line-height: 1.5;
+}
+
+.menu-text:hover {
+  color: #404bbf;
+}
+
+.menu-text:hover:focus {
+  color: #404bbf;
 }
 
 .adress-nav {
@@ -48,6 +51,30 @@ a {
   font-style: normal;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.email {
+  line-height: 1.5;
+  color: #434455;
+}
+.email:hover {
+  color: #404bbf;
+}
+
+.email:focus {
+  color: #404bbf;
+}
+
+.tel {
+  line-height: 1.5;
+  color: #434455;
+}
+
+.tel:hover {
+  color: #404bbf;
+}
+
+.tel:focus {
+  color: #404bbf;
 }
 
 /* MAIN */
@@ -59,10 +86,11 @@ a {
 .text-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  line-height: 1.07;
 }
 
 .btn-title {
@@ -71,8 +99,16 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-
   background-color: #4d5ae5;
+  cursor: pointer;
+}
+
+.btn-title:hover {
+  background-color: #404bbf;
+}
+
+.btn-title:hover:focus {
+  background-color: #404bbf;
 }
 
 /*PECULIARITIE*/
