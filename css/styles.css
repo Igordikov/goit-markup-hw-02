@@ -95,11 +95,15 @@ a {
   background-color: #404bbf;
 }
 
-.btn-title:hover:focus {
+.btn-title:focus {
   background-color: #404bbf;
 }
 
 /*PECULIARITIE*/
+
+.title-second-section {
+  font-weight: 500;
+}
 
 .title-of-peculiaritie {
   font-size: 20px;
@@ -124,11 +128,11 @@ a {
 .our-team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  line-height: 1.11;
 }
 
 .img-our-team {
